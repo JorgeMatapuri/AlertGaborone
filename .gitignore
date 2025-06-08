@@ -1,0 +1,27 @@
+# .gitignore
+
+# Python virtual environment
+venv/
+.venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+
+# Environment variables file - CRITICAL FOR SECURITY
+config/.env
+
+# SQLite database file - CRITICAL FOR CLEANLINESS (and if it contains sensitive data)
+alertGabs_rain_db
+
+# Streamlit local cache
+.streamlit/
+.ipynb_checkpoints/ # If you use Jupyter notebooks (even temporarily)
+
+# macOS specific files
+.DS_Store
+
+# Other potential temporary or generated files
+*.log
+*.tmp
+*.bak
