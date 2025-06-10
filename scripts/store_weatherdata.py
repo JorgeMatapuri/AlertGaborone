@@ -17,7 +17,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 load_dotenv(dotenv_path='config/.env')
 
 API_KEY = os.getenv('OPENWEATHER_API_KEY')
-CITY = 'Port Elizabeth'
+CITY = 'Gaborone'
 # --- Configuration Validation: Check API Key immediately ---
 if not API_KEY:
     logging.critical("❌ OPENWEATHER_API_KEY environment variable is not set. Exiting.")
